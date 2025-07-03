@@ -4,6 +4,7 @@
 *.tfstate.*.backup
 crash.log
 .terraform.lock.hcl
+terraform.tfstate.backup
 
 # Arquivos de variáveis sensíveis
 *.tfvars
@@ -27,3 +28,4 @@ keypair
 # Outros
 note.txt
 config
+terraform.tfstate.backup
