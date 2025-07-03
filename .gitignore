@@ -1,0 +1,29 @@
+# Arquivos de estado do Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*.backup
+crash.log
+.terraform.lock.hcl
+
+# Arquivos de variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Arquivos de saída e planos
+*.tfplan
+.terraformrc
+terraform.rc
+
+# Arquivos de log e cache gerados
+*.tfvars.json.cache
+*.log
+
+# Arquivos de chave privada e pública
+id_rsa
+id_rsa.pub
+keypair.pub
+keypair
+
+# Outros
+note.txt
+config
