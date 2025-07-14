@@ -72,6 +72,7 @@ variable "ansible_user" {
 variable "ansible_playbook" {
   description = "The path to the Ansible playbook to run"
   type        = string
+  default     = "./playbook.yml"
 }
 
 variable "host_name" {
